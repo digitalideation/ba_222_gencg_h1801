@@ -13,7 +13,7 @@ Main repo for the classes I.BA_222_GENCG.H1701 - Winter 2017
 │   ├── assets          (css + static images)
 │   ├── notebooks       (Classes notebooks)
 │   ├── slides          (Classes presentations)
-│   └── index.md        (Index of the website)
+│   └── index.md        (github pages Index)
 ├── examples/
 │   ├── 01_01
 │   ├── 01_02
