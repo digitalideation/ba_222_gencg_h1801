@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    // background-image: linear-gradient(180deg, #000000, #292929);    
+    // background-color: #159957;
+    background: url("../images/header.gif") no-repeat center fixed;
+    // http://78.media.tumblr.com/7af9a9301e725ee96af056ad5782c299/tumblr_ot2cu8t35J1sep1pbo1_1280.jpg - (c) http://visualcodepoems.tumblr.com
+    // https://miulinglam.files.wordpress.com/2010/02/cp07.jpg
+    // https://i.pinimg.com/originals/8e/ea/0e/8eea0ec11c5da046703902ef239db814.jpg
+    background-size: cover;
+}
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+    background-color: #000;
+}
+
+.project-tagline {
+    opacity: 1;
+    background-color: #000;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.btn:hover {
+    background-color: rgba(50, 50, 50, .8);
+}
+
+.main-content h1 {
+    color: #333;
+    border-bottom: 1px dotted darkgrey;
+    background-color: whitesmoke;    
+}
+
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: #333;
+    border-bottom: 1px dotted darkgrey;
+    // background-color: whitesmoke;    
+}
+
+a {
+    color: #009999;
+    text-decoration: none
+}
+
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding: 3rem 6rem;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header {
+        padding: 3rem 2rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 1.5rem 1rem
+    }
+}
