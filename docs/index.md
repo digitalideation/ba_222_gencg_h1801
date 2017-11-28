@@ -13,7 +13,7 @@ Welcome to the classes generative design @ HSLU / Digital Ideation. This is the 
 - [Class portfolio][refClassPortfolio]
     - TBC
 
-[refMainRepo]:https://github.com/digitalideation/BA_222_GENCG
+[refMainRepo]:https://github.com/digitalideation/BA_222_GENCG_H1701
 [refClassRepo]:http://...
 [refClassPortfolio]:http://...
 

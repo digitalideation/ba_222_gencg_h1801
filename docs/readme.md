@@ -9,4 +9,4 @@
 
 This directory hosts the content of the github pages website:
 
-**[https://digitalideation.github.io/BA_222_GENCG/](https://digitalideation.github.io/BA_222_GENCG/)**
+**[https://digitalideation.github.io/BA_222_GENCG_H1701/](https://digitalideation.github.io/BA_222_GENCG_H1701/)**

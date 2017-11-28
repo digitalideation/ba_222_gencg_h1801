@@ -25,4 +25,4 @@ If you like to modify some of the examples it is recommended for each student to
 
 All the info regarding the class as well as direct links to all materials (slides, notebooks, examples, etc... ) are accessible via the github pages for this repository:
 
-**[https://digitalideation.github.io/BA_222_GENCG/](https://digitalideation.github.io/BA_222_GENCG/)**
+**[https://digitalideation.github.io/BA_222_GENCG_H1701/](https://digitalideation.github.io/BA_222_GENCG_H1701/)**
