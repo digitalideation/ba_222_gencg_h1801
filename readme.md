@@ -5,7 +5,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/hslu)
 
-Main repo for the classes I.BA_222_GENCG_H1701.H1701 - Winter 2017
+Main repo for the classes I.BA_222_GENCG.H1701 - Winter 2017
 
 ```
 ├── docs                (github pages root)
