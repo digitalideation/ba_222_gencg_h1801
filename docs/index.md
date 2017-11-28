@@ -1,6 +1,6 @@
 ## Intro
 
-Welcome to the classes generative design @ HSLU / Digital Ideation. This is the main page for the class, you will find a list of resources available below as well as some other information to help with this 3 weeks workshop. It is advised to download / clone this repo at the beginning of the class and eventually keep it updated. All assignements / exercises should be done by students in their own private classroom repo.
+Welcome to the classes generative design @ HSLU / Digital Ideation. This is the main page for the class, you will find a list of resources available below as well as some other information to help with this 3 weeks workshop. It is advised to download / clone this repo at the beginning of the class and eventually keep it updated. All assignments / exercises should be done by students in their own private classroom repo.
 
 ## Resources
 
@@ -31,7 +31,6 @@ Welcome to the classes generative design @ HSLU / Digital Ideation. This is the 
 [refStud04]:https://github.com/TheCell
 [refStud05]:https://github.com/Ooky
 
-
 ## WEEK 01
 
 For this first week we will focus on the basis. We will be looking at the core functions of p5.js, and some simple useful maths technics. We will also experiment with shapes, patterns and agents (intelligent and non intelligent). We will then learn how color spaces are created and how to generate them dynamically.
@@ -46,10 +45,18 @@ During the second week ot the workshop we will adapt what we've learned so far t
 - [Notes part 03: ][refNotes03]
 - [Notes part 04: ][refNotes04]
 
-
 ## WEEK 03
 
-The last week of the workshop is an open assignments. You will have to pick one of the 3 different themes we discussed back in week 01 (cadaver / 3d world / sound sculpture ) and create your own implementation of it. Feel free to work in group or on your own for this assignment.
+The last week of the workshop is dedicated to the "open assignment". You will have to pick one of the themes we will discuss back in week 01 (cadaver / logo / sound sculpture ) and create your own implementation of it. Feel free to work in group or on your own for this assignment.
+
+
+## Notes
+
+Evaluation criteria are:
+- Quality of the result
+- Legibility and reusability of the code
+
+There will be small exercises throughout each days, one weekly assignment and a main project covering the 3 weeks classes.
 
  [refSlides01]: slides/01.html
  [refSlides02]: slides/02.html
