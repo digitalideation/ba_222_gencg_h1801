@@ -13,27 +13,33 @@ function setup() {
   pixelDensity(density);
   // Init var
   numRects = 10;
+  background(0);
 }
 
 function draw() {
 
-  w = width / numRects;
-  colorStep = toInt(255/numRects);
   noStroke();
+  w = width/numRects;
 
-  brightness = toInt(map(mouseX, 0, height, 1, 100));
-  saturation = toInt(map(mouseY, 0, width, 1, 100));
+  brightness = 90;
+  saturation = 50;  
+
+  let startHue = toInt(map(mouseX, 0, height, 0, 360));
+  let targetHue = toInt(map(mouseY, 0, width, 0, 360));
 
   colorMode(HSL);
   for (var i = 0; i < numRects; i++) {
-    fill(i * colorStep, brightness, saturation);
+    hue = lerp(startHue, targetHue, i/numRects);
+    fill(hue, brightness, saturation);
     rect(i * w, 0, w, height / 2);
+    // console.log('i:' + i + ' hue:' + hue);
   }
 
   colorMode(RGB);
   translate(0, height / 2);
   for (var i = 0; i < numRects; i++) {
-    fillHsluv(i * colorStep, brightness, saturation);
+    hue = lerp(startHue, targetHue, i/numRects);
+    fillHsluv(hue, brightness, saturation);
     rect(i * w, 0, w, height / 2);
   }
 
