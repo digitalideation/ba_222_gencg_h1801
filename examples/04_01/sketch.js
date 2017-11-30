@@ -18,11 +18,11 @@ function draw() {
   let offset = 40;
 
   noStroke();
-  fillHsluv(20, 100, 90);
+  fillHsluv(0, 0, 90);
   rect(0, 0, width/2, height);
-  fillHsluv(20, 100, 85);
+  fillHsluv(0, 0, 85);
   rect((width/4 - width/6), (height/2 - height/8) , width/3, height/4);
-  fillHsluv(20, 100, 95);
+  fillHsluv(0, 0, 95);
   rect((width/4 - width/6) + offset, (height/2 - height/8) + offset, width/3, height/4);
   fillHsluv(0, 0, 0);  
 

@@ -18,11 +18,11 @@ function setup() {
 function draw() {
 
   w = width / numRects;
-  colorStep = toInt(255/numRects);
+  colorStep = toInt(360/numRects);
   noStroke();
 
-  brightness = toInt(map(mouseX, 0, height, 1, 360));
-  saturation = toInt(map(mouseY, 0, width, 1, 360));
+  brightness = toInt(map(mouseX, 0, height, 1, 100));
+  saturation = toInt(map(mouseY, 0, width, 1, 100));
 
   colorMode(HSL);
   for (var i = 0; i < numRects; i++) {

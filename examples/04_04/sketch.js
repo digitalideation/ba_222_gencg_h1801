@@ -2,7 +2,6 @@
 // Generative Gestaltung, ISBN: 978-3-87439-759-9
 
 // Global var
-var w, numRects, colorStep, brightness, saturation;
 
 function setup() {
   // Canvas setup
@@ -12,45 +11,40 @@ function setup() {
   var density = displayDensity();
   pixelDensity(density);
   // Init var
-  numRects = 10;
-  background(0);
 }
 
 function draw() {
 
+  let offset = 40;
+
   noStroke();
-  w = width/numRects;
+  fillHsluv(40, 30, 65);
+  rect(0, 0, width/2, height);
+  fillHsluv(10, 40, 40);
+  rect((width/4 - width/6), (height/2 - height/8) , width/3, height/4);
+  fillHsluv(75, 50, 85);
+  rect((width/4 - width/6) + offset, (height/2 - height/8) + offset, width/3, height/4);
+  fillHsluv(0, 0, 0);  
 
-  brightness = 80;
-  saturation = 80;  
+  let txt = 'A desaturated color scheme';
+  let txtWidth = textWidth(txt);
+  text(txt, width/4 - txtWidth/2, (height/2 - height/8) - 50);
 
-  let startHue = toInt(map(mouseX, 0, width, 0, 360));
-  let targetHue = toInt(map(mouseY, 0, height, 0, 360));
+  fillHsluv(40, 100, 65);
+  rect(width/2, 0, width, height);
+  fillHsluv(10, 100, 40);
+  rect(width/2 + (width/4 - width/6), (height/2 - height/8) ,width/3, height/4);
+  fillHsluv(75, 100, 85);
+  rect(width/2 + (width/4 - width/6) + offset, (height/2 - height/8) + offset, width/3, height/4);
 
-  colorMode(HSL);
-  for (var i = 0; i < numRects; i++) {
-    hue = lerp(startHue, targetHue, i/numRects);
-    fill(hue, brightness, saturation);
-    rect(i * w, 0, w, height / 2);
-    // console.log('i:' + i + ' hue:' + hue);
-  }
-
-  colorMode(RGB);
-  translate(0, height / 2);
-  for (var i = 0; i < numRects; i++) {
-    hue = lerp(startHue, targetHue, i/numRects);
-    fillHsluv(hue, brightness, saturation);
-    rect(i * w, 0, w, height / 2);
-  }
+  txt = 'A saturated color scheme';
+  txtWidth = textWidth(txt);
+  text(txt, width/2 + width/4 - txtWidth/2, (height/2 - height/8) - 50);
 
 }
 
 function keyPressed() {
   if (key == 's' || key == 'S') saveThumb(650, 350);
-
-  if (keyCode == 38) numRects ++ ; // up arrow
-  if (keyCode == 40) numRects = numRects>1  ? numRects-1 : numRects ; // down arrow
-
 }
 
 // Color functions
