@@ -1,4 +1,4 @@
-// Based on the code P_2_1_3_04.pde from
+// Based on the code P_2_2_5_01.pde from
 // Generative Gestaltung, ISBN: 978-3-87439-759-9
 
 // Global var
