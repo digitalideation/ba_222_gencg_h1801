@@ -14,8 +14,8 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("p5Container");
   // Detect screen density (retina)
-  var density = displayDensity();
-  pixelDensity(density);
+  // var density = displayDensity();
+  // pixelDensity(density);
   // Init var
   // some of the var are initialised in gui.js
   backgroundGrey = 50;
