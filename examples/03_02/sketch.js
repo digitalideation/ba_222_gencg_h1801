@@ -1,4 +1,4 @@
-// Randomly generated circle
+// Noise generated circle
 
 // Global var
 // Some of the var might be initialised in gui.js
@@ -15,7 +15,6 @@ function setup() {
   pixelDensity(density);
   // Init var
   // some of the var are initialised in gui.js
-  actRandomSeed = 10;
   backgroundGrey = 0;
   count = 150;
   points = [count];
@@ -27,9 +26,6 @@ function draw() {
   background(backgroundGrey, 20);
   smooth();
 
-  // When mouse is pressed fix a randomSeed
-  if (mouseIsPressed) randomSeed(map(mouseX,0,width,0,actRandomSeed));
-
   // Create points array
   let faderX = mouseX/width;
   let t = millis()/1000;
@@ -37,7 +33,7 @@ function draw() {
   let angle = radians(360/count);
 
   for (let i=0; i<count; i++){
-    let radiusRand = r - random(1)*50;
+    let radiusRand = r - noise(t, i*faderX)*50;
     let x = width/2 + cos(angle*i)*radiusRand;
     let y = height/2 + sin(angle*i)*radiusRand;
     points[i] = createVector(x,y);
