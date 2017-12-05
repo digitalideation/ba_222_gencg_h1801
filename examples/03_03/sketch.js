@@ -42,9 +42,9 @@ function draw() {
   image(randomImg,0,0,width,height);
 
   textSize(20);
-  let txt = "downSample:"+downSample ;
+  let txt = "downSample: "+downSample ;
   let txtWidth = textWidth(txt);
-  text(txt, width / 2 - txtWidth / 2, 50);
+  text(txt, 50, 50);
 
 }
 

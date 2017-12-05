@@ -30,8 +30,8 @@ function draw() {
 
   noiseDetail(octaves,falloff);
 
-  noiseXRange = mouseX/10;
-  noiseYRange = mouseY/10;
+  noiseXRange = mouseX/100;
+  noiseYRange = mouseY/100;
 
   let t = millis()/10000;
 
@@ -61,7 +61,7 @@ function draw() {
   image(noiseImg,0,0,width,height);
 
   textSize(20);
-  let txt = "octaves: "+octaves+" falloff: "+falloff+" noiseXRange: 0-"+noiseXRange+" noiseYRange: 0-"+noiseYRange+"\n downSample:"+downSample+" colorCount:"+colorCount ;
+  let txt = "octaves: "+octaves+" falloff: "+falloff+" noiseXRange: 0-"+noiseXRange+" noiseYRange: 0-"+noiseYRange+"\n downSample :"+downSample+" colorCount: "+colorCount ;
   text(txt, 50, 50);
 }
 
