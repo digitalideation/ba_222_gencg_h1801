@@ -2,7 +2,7 @@
 
 // Global var
 // Some of the var might be initialised in gui.js
-var canvas, backgroundGrey, noiseXRange, noiseYRange, noiseMode, octaves, falloff, noiseImg;
+var canvas, backgroundGrey, noiseXRange, noiseYRange, noiseMode, octaves, falloff, noiseImg, downSample, colorCount;
 
 function setup() {
   // Canvas setup
@@ -20,6 +20,7 @@ function setup() {
   falloff = 0.5;
   noiseMode = 1;
   downSample = 4;
+  colorCount = 24;
 }
 
 function draw() {
@@ -32,6 +33,8 @@ function draw() {
   noiseXRange = mouseX/10;
   noiseYRange = mouseY/10;
 
+  let t = millis()/10000;
+
   noiseImg = createImage(toInt(width/downSample), toInt(height/downSample));
 
   noiseImg.loadPixels();
@@ -43,10 +46,10 @@ function draw() {
 
       var noiseValue = 0;
       if (noiseMode == 1) { 
-        noiseValue = noise(noiseX,noiseY) * 255;
+        noiseValue = noise(noiseX,noiseY,t) * 255;  // we add t to get a 3d noise
       } 
       else if (noiseMode == 2) {
-        let n = noise(noiseX,noiseY) * 24;
+        let n = noise(noiseX,noiseY,t) * colorCount;  // we add t to get a 3d noise
         noiseValue = (n-toInt(n)) * 255;
       }
 
@@ -58,9 +61,8 @@ function draw() {
   image(noiseImg,0,0,width,height);
 
   textSize(20);
-  let txt = "octaves: "+octaves+" falloff: "+falloff+" noiseXRange: 0-"+noiseXRange+" noiseYRange: 0-"+noiseYRange+" downSample:"+downSample ;
-  let txtWidth = textWidth(txt);
-  text(txt, width / 2 - txtWidth / 2, 50);
+  let txt = "octaves: "+octaves+" falloff: "+falloff+" noiseXRange: 0-"+noiseXRange+" noiseYRange: 0-"+noiseYRange+"\n downSample:"+downSample+" colorCount:"+colorCount ;
+  text(txt, 50, 50);
 }
 
 
@@ -73,6 +75,9 @@ function keyReleased() {
 
   if (key == '3') downSample = (downSample > 1) ? downSample-1 : downSample;
   if (key == '4') downSample ++;
+
+  if (key == '5') colorCount = (colorCount > 2) ? colorCount-2 : colorCount;
+  if (key == '6') colorCount += 2;
 
   if (keyCode == UP_ARROW) falloff += 0.05;
   if (keyCode == DOWN_ARROW) falloff -= 0.05;
