@@ -28,7 +28,7 @@ function setup() {
 
 function draw() {
 
-  background(backgroundGrey, 100);
+  background(backgroundGrey);
   smooth();
 
   noiseDetail(octaves,falloff);

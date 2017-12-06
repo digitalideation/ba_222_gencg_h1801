@@ -40,10 +40,9 @@ For this first week we will focus on the basis. We will be looking at the core f
 
 ## WEEK 02
 
-During the second week ot the workshop we will adapt what we've learned so far to new concepts. We will learn how to manipulate images, create generative typography and play with oscillation & symmetry. We will also start experimenting with live server interaction and websockets.
+During the second week ot the workshop we will adapt what we've learned so far and play with new concepts. We will first learn how to use noise and random values, we will continue developing our agents and adapt them to create generative typography. We will also start experimenting with live server interaction and websockets.
 - [Slides][refSlides02]
 - [Notes part 03: ][refNotes03]
-- [Notes part 04: ][refNotes04]
 
 ## WEEK 03
 
