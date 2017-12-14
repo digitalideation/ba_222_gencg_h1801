@@ -55,7 +55,7 @@ Evaluation criteria are:
 - Quality of the result
 - Legibility and reusability of the code
 
-There will be small exercises throughout each days, one weekly assignment and a main project covering the 3 weeks classes.
+There will be small exercises throughout the weeks and one main final project.
 
  [refSlides01]: slides/01.html
  [refSlides02]: slides/02.html

@@ -77,6 +77,7 @@ function draw() {
   }
 
   // ------ if agent is crossing his path or border was reached ------
+  loadPixels();
   let pixelColors = get(toInt(posX),toInt(posY));
   if ( brightness(color(pixelColors)) != brightness(color(backgroundGrey)) || reachedBorder) {
     angle = getRandomAngle(direction);

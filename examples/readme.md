@@ -9,7 +9,7 @@
 
 This directory hosts all the examples / starter code for the classes. New examples will be added regularly so you might have to pull it or sync it later on... 
 
-If you like to modify some of the examples it is recommended for each student to copy the files into your own class repository and do the changes there. Copy and paste `sketch.js` there
+If you like to modify some of the examples copy the files into your own repo and do the changes there. 
 
 ```
 ├── 01_01               (example dir)
@@ -19,8 +19,45 @@ If you like to modify some of the examples it is recommended for each student to
 │   ├── index.html      
 │   └── sketch.js       
 ├── ...               
-├── js                  (keep all your lib there)               
+├── js                  (keep all your lib there)
 └── readme.md           (those instructions)
+```
+
+Some of the examples code are adapted from the book **["Generative Gestaltung"](http://www.generative-gestaltung.de/)**
+
+### List of examples
+
+```
+├── 01...               SHAPES + PATTERNS
+├── 01_01               Shape 01
+├── 01_02               Shape 02
+├── 01_03               Shape 03 (10 Print)
+├── 01_04               Patterns 01 (Grid system)
+├── 01_05               Patterns 02 (Grid system)
+├── 01_06               Patterns 03 (Grid + composed shapes)
+
+├── 02...               AGENTS
+├── 02_01               Agent 01
+├── 02_02               Agent 02 (to fix, not working as expected)
+
+├── 03...               RANDOM & NOISE 
+├── 03_01               Random 01
+├── 03_02               Noise 01
+├── 03_03               Random 02 (greyscale image)
+├── 03_04               Noise 02 (greyscale image)
+├── 03_05               Noise 03 (angle)
+├── 03_06               Noise 04 (3D)
+├── 03_07               Noise 05 (flow)
+
+├── 04...               COLORS
+├── 04_01               Black and white + contrast
+├── 04_02               RGB vs HSLu 01
+├── 04_03               RGB vs HSLu 02
+├── 04_04               HSLu Saturation
+├── 04_05               Color schemes with HSLu
+
+├── 05...               TEXT
+└── 05_01               text + noise agents
 ```
 
 All the info regarding the class as well as direct links to all materials (slides, notebooks, examples, etc... ) are accessible via the github pages for this repository:
