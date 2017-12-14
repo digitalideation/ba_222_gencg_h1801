@@ -12,12 +12,12 @@ class Agent {
     let _pOld = createVector(x, y);
     let _stepSize = random(1, 5);
 
-    this.draw = function(noiseScale, noiseStrength, strokeWidth, drawMode){
+    this.draw = function(noiseScale, noiseStrength, p, strokeWidth, drawMode){
 
       if (drawMode == 1) {
-        _angle = noise(_p.x/noiseScale,_p.y/noiseScale) * noiseStrength;
+        _angle = noise(_p.x/noiseScale, _p.y/noiseScale, p) * noiseStrength;
       } else {
-        _angle = noise(_p.x/noiseScale,_p.y/noiseScale) * 24; //
+        _angle = noise(_p.x/noiseScale, _p.y/noiseScale, p) * 24; //
         _angle = (_angle - toInt(_angle)) * noiseStrength;  //
       }
 

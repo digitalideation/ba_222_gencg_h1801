@@ -1,14 +1,17 @@
 
 var options = {
+    // Mode
+    agentsType: 1,
     // Text
     txt: "Hello World",
     txtSize: 250,
+    txtGray: 50, 
+    txtAlpha: 0,
     step: 6,
     refresh: function () { initScene() },
     // Draw
-    overlayAlpha: 10, 
-    agentsAlpha: 90,
-    txtAlpha: 90,
+    overlayAlpha: 5, 
+    agentsAlpha: 30,
     strokeWidth: 0.3,
     // Noise
     noiseScale: 10, 
@@ -20,16 +23,18 @@ var options = {
 
 window.onload = function() {
   var gui = new dat.GUI();
+  f1.add(options, 'agentsType', [1, 2] );
   // Text
   gui.add(options, 'txt');
   gui.add(options, 'txtSize').step(1);
+  gui.add(options, 'txtGray').min(1).max(255).step(1);
+  gui.add(options, 'txtAlpha').min(0).max(255).step(.1);
   gui.add(options, 'step').min(1).max(100).step(1);
   // Refresh text
   gui.add(options, 'refresh');
   // Draw
   gui.add(options, 'overlayAlpha').min(0).max(255).step(.1);
   gui.add(options, 'agentsAlpha').min(0).max(255).step(.1);
-  gui.add(options, 'txtAlpha').min(0).max(255).step(.1);
   gui.add(options, 'strokeWidth').min(0).max(10).step(.1);
   // Noise
   var f1 = gui.addFolder('Noise');

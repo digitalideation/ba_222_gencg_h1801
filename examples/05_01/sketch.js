@@ -30,14 +30,16 @@ function draw() {
 
   noiseDetail(options.octaves,options.falloff);
 
+  let t = millis()/10000;
+
   // Draw agents  
   for(var i=0; i<agents.length-1; i++) {
-    agents[i].draw(options.noiseScale, options.noiseStrength, options.strokeWidth, options.drawMode);
+    agents[i].draw(options.noiseScale, options.noiseStrength, i, options.strokeWidth, options.drawMode);
   }
 
   // Draw text
   noStroke();
-  fill(backgroundGrey, options.txtAlpha);
+  fill(options.txtGray, options.txtAlpha);
   textSize(options.txtSize);  
   text(options.txt, width/2-textWidth(options.txt)/2, height/2+options.txtSize/2);
 
@@ -45,12 +47,12 @@ function draw() {
 
 
 function initScene() {
+
   background(0);
   fill(1);
   textSize(options.txtSize);
   text(options.txt, width/2-textWidth(options.txt)/2, height/2+options.txtSize/2);
   
-  // Load pixels
   agents = []; 
   var step = options.step;
   let w = width*density;
@@ -65,12 +67,14 @@ function initScene() {
       }
     }
   }  
+
 }
 
 function keyReleased() {
   if (keyCode == DELETE || keyCode == BACKSPACE) background(backgroundGrey);  
   if (keyCode == 32) {
     for(var i=0; i<agents.length-1; i++) agents[i].restart();
+    background(backgroundGrey);
   }
   if (key == 's' || key == 'S') saveThumb(650, 350);
 
