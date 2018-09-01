@@ -9,7 +9,7 @@ Main repo for the classes I.BA_222_GENCG.H1701 - Winter 2017
 
 All the info regarding the class as well as direct links to all materials (slides, notebooks, examples, etc... ) are accessible via the github pages for this repository:
 
-**[https://digitalideation.github.io/BA_222_GENCG_H1701/](https://digitalideation.github.io/BA_222_GENCG_H1701/)**
+**[https://digitalideation.github.io/ba_222_gencg_h1701/](https://digitalideation.github.io/ba_222_gencg_h1701/)**
 
 ```
 ├── docs                (github pages root)
