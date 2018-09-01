@@ -32,7 +32,7 @@ window.onload = function() {
   // Draw
   gui.add(options, 'overlayAlpha').min(0).max(255).step(.1);
   gui.add(options, 'agentsAlpha').min(0).max(255).step(.1);
-  gui.add(options, 'strokeWidth').min(0).max(10).step(.1);
+  gui.add(options, 'strokeWidth').min(0).max(50).step(.1);
   // Noise
   var f1 = gui.addFolder('Noise');
   f1.add(options, 'noiseStrength');
