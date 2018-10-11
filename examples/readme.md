@@ -1,4 +1,4 @@
-![hslu logo](../docs/assets/images/hslu-logo-xtra-small.png "hslu logo")
+![di logo](https://raw.githubusercontent.com/gu-ma/ba_218_comppx_h1801/master/docs/assets/images/di-logo-small.jpg "di logo")
 
 # Generative Computer Graphics
 
