@@ -1,4 +1,4 @@
-![di logo](https://raw.githubusercontent.com/gu-ma/ba_218_comppx_h1801/master/docs/assets/images/di-logo-small.jpg "di logo")
+![di logo](https://raw.githubusercontent.com/digitalideation/ba_222_gencg_h1801/master/docs/assets/images/di-logo-small.jpg "di logo")
 
 # Generative Computer Graphics - Winter 2018
 
