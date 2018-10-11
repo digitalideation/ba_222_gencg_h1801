@@ -1,15 +1,15 @@
 ![hslu logo](../docs/assets/images/hslu-logo-xtra-small.png "hslu logo")
 
-## Generative Computer Graphics
+# Generative Computer Graphics
 
-### Examples
+## Examples
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/hslu)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/digideation)
 
 This directory hosts all the examples / starter code for the classes. New examples will be added regularly so you might have to pull it or sync it later on... 
 
-If you like to modify some of the examples copy the files into your own repo and do the changes there. 
+If you like to modify some of the examples copy the files into your [portfolio repo](https://digitalideation.github.io/ba_222_gencg_h1801_students/) and do the changes there. 
 
 ```
 ├── 01_01               (example dir)
@@ -23,9 +23,9 @@ If you like to modify some of the examples copy the files into your own repo and
 └── readme.md           (those instructions)
 ```
 
-Some of the examples code are adapted from the book **["Generative Gestaltung"](http://www.generative-gestaltung.de/)**
+Some of the examples are adapted from the book **["Generative Gestaltung"](http://www.generative-gestaltung.de/)** you can find the complete collection of example for P5.js [here](http://www.generative-gestaltung.de/2/) and on [github](https://github.com/generative-design/Code-Package-p5.js#Running-the-sketches)
 
-### List of examples
+## List of examples
 
 ```
 ├── 01...               SHAPES + PATTERNS
@@ -62,4 +62,4 @@ Some of the examples code are adapted from the book **["Generative Gestaltung"](
 
 All the info regarding the class as well as direct links to all materials (slides, notebooks, examples, etc... ) are accessible via the github pages for this repository:
 
-**[https://digitalideation.github.io/BA_222_GENCG_H1701/](https://digitalideation.github.io/BA_222_GENCG_H1701/)**
+**[https://digitalideation.github.io/BA_222_GENCG_H1801/](https://digitalideation.github.io/BA_222_GENCG_H1801/)**
