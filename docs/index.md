@@ -13,27 +13,28 @@ Welcome to the classes generative design @ HSLU / Digital Ideation. This is the 
 - [Class portfolio][refClassPortfolio]
     - TBC
 
-[refMainRepo]:https://github.com/digitalideation/BA_222_GENCG_H1701
+[refMainRepo]:https://github.com/digitalideation/BA_222_GENCG_H1801
 [refClassRepo]:http://...
 [refClassPortfolio]:http://...
 
 ## Students
 
-1. [Nam Pham][refStud01]
-2. [Valentin Berger][refStud02]
-3. [Mike Amacher][refStud03]
-4. [Simon Hischier][refStud04]
-5. [Jony Margelist ][refStud05]
+1. [][refStud01]
+2. [][refStud02]
+3. [][refStud03]
+4. [][refStud04]
+5. [][refStud05]
 
-[refStud01]:https://github.com/Bokidoo/
-[refStud02]:https://github.com/V4L3
-[refStud03]:https://github.com/micromic5
-[refStud04]:https://github.com/TheCell
-[refStud05]:https://github.com/Ooky
+[refStud01]:https://github.com/
+[refStud02]:https://github.com/
+[refStud03]:https://github.com/
+[refStud04]:https://github.com/
+[refStud05]:https://github.com/
 
 ## WEEK 01
 
 For this first week we will focus on the basis. We will be looking at the core functions of p5.js, and some simple useful maths technics. We will also experiment with shapes, patterns and agents (intelligent and non intelligent). We will then learn how color spaces are created and how to generate them dynamically.
+- [Intro][refSlides00]
 - [Slides][refSlides01]
 - [Notes part 01: Setup, Basis, Shapes, Patterns, Agents][refNotes01]
 - [Notes part 02: Colors][refNotes02]
@@ -57,6 +58,7 @@ Evaluation criteria are:
 
 There will be small exercises throughout the weeks and one main final project.
 
+ [refSlides00]: slides/00.html
  [refSlides01]: slides/01.html
  [refSlides02]: slides/02.html
  [refSlides03]: slides/03.html

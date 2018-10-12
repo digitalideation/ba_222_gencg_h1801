@@ -15,7 +15,7 @@
       -->
 
     <!-- SEO -->
-    <title>Generative Computer Graphics - Slides 02</title>
+    <title>Generative Computer Graphics - Slides 00</title>
     <meta name="description" content="Generative Computer Graphics - Slides 01">
 
     <!-- URL CANONICAL -->
@@ -36,15 +36,15 @@
     <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Generative design @ HSLU"> <!-- EDIT -->
-    <meta property="og:description" content="Part 01"> <!-- EDIT -->
+    <meta property="og:description" content="Intro"> <!-- EDIT -->
     <meta property="og:image" content=" static/images/share-webslides.jpg" > <!-- EDIT -->
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
     <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
-    <meta name="twitter:title" content="Generative Computer Graphics - Slides 01"> <!-- EDIT -->
-    <meta name="twitter:description" content="Generative Computer Graphics - Slides 01"> <!-- EDIT -->
+    <meta name="twitter:title" content="Generative Computer Graphics - Slides 00"> <!-- EDIT -->
+    <meta name="twitter:description" content="Generative Computer Graphics - Slides 00"> <!-- EDIT -->
     <meta name="twitter:image" content=" static/images/share-webslides.jpg"> <!-- EDIT -->
 
     <!-- FAVICONS -->
@@ -76,7 +76,7 @@
           <!--.wrap = container (width: 90%) -->
           <div class="wrap">
             <h1 class="text-landing">The aesthetic of generative coding</h1>
-            <p class="text-subtitle">WEEK 02</p>
+            <p class="text-subtitle">INTRO</p>
             <p class="text-symbols">* * * </p>
             <p><a class="button ghost" href="https://github.com/digitalideation/BA_222_GENCG_H1801" ><svg class="fa-github">
                 <use xlink:href="#fa-github"></use>
@@ -96,9 +96,35 @@
 
         <section>
           <div class="wrap size-50">
-            <h2>This week</h2>
-            <p class="text-intro">Noise and Randomness</p>
-            <p>During this week we are going to experiment with noise and randomness. <br>You should adapt and keep developing some of the classes/libraries you started creating last week.</p>
+            <h2>About this course</h2>
+            <p class="text-intro">Introduction to generative coding</p>
+            <p>The aim of this workshop is to look at some of the technics of generative coding and to apply them to solve some concretes tasks.</p>
+            <p>At the end of the class I hope you will have learned more on how to code simple graphics and learned a set of skills you can reuse later.</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap">
+            <div class="card-30 bg-white">
+              <figure>
+                <img src="https://blog.massol.me/content/images/2017/03/2017-03-20-23_18_07.gif" alt="G.">
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>About Me</h2>
+                <p>UX, UI, CODE</p>
+                <p>Design and code since 15 years. Background in code, worked mostly in design...</p>
+                <ul class="description">
+                  <li><svg class="fa-external-link"><use xlink:href="#fa-external-link"></use></svg> <a target="_blank" href="https://massol.me">Massol.me</a></li>
+                  <li><svg class="fa-github"><use xlink:href="#fa-github"></use></svg> <a target="_blank" href="https://github.com/gu-ma">Github/gu-ma</a></li>
+                  <li><svg class="fa-linkedin"><use xlink:href="#fa-linkedin"></use></svg>  <a target="_blank" href="https://www.linkedin.com/in/gmassol/">LinkedIn/gmassol</a></li>
+                  <li><svg class="fa-twitter"><use xlink:href="#fa-twitter"></use></svg> <a target="_blank" href="https://twitter.com/g_massol">Twitter/g_massol/</a></li>
+                </ul>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- .end .card50 -->
           </div>
           <!-- .end .wrap -->
         </section>
@@ -106,26 +132,51 @@
         <!-- SETUP -->
         <section class="frame bg-black aligncenter">
           <div class="wrap">
-            <h2 class="text-landing">Overview</h2>
+            <h2 class="text-landing">Setup & Basics</h2>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-60">
+            <h3>Prepare your environment</h3>
+            <hr>
+            <div class="bg-white">
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>Github classroom</h2>
+                  <p>Clone the class directory</p>
+                </li>
+                <li>
+                  <h2>P5.JS + webserver</h2>
+                  <p><a target="_blank" href="https://www.youtube.com/watch?v=HZ4D3wDRaec">Workflow for working locally</a> <svg class="fa-external-link"><use xlink:href="#fa-external-link"></use></svg></p>
+                </li>
+                <li>
+                  <h2>Processing + libs</h2>
+                  <p><a target="_blank" href="http://processing.org/">Install processing</a> <svg class="fa-external-link"><use xlink:href="#fa-external-link"></use></svg></p>
+                </li>
+              </ul>
+            </div> <!-- .end .bg-white shadow -->
           </div>
           <!-- .end .wrap -->
         </section>
 
         <section class="bg-black aligncenter">
-          <span class="background dark" style="background-image:url('static/images/scooter-img.jpg')"></span>
+          <span class="background dark" style="background-image:url('static/images/vector.jpg')"></span>
           <div class="wrap">
             <div class="content-right">
               <blockquote>
-                <h3>Noise</h3>
+                <h3>Vector Math</h3>
                 <p></p>
                 <p>
-                  <a target="_blank" class="button ghost" href="../notebooks/03.html#noise" >
+                  <a target="_blank" class="button ghost" href="../notebooks/01.html#vector-maths" >
                     <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
                     Go to notebook
                   </a>
                 </p>            
-                <p>"<b>Make some noise!!!</b> Ravers of the Universe...you, keep the spirit alive! "</p>
-                <p><cite>Scooter - Move your Ass! (1995)</cite></p>
+                <p>"It's a mathematical term. A quantity represented by an arrow with both direction and magnitude. Vector!<br>That's me—because I am committing crimes with both direction and magnitude! Oh yeah!"</p>
+                <p><cite>Vector (Despicable Me)</cite></p>
               </blockquote>
             </div>
           </div>
@@ -134,12 +185,80 @@
 
         <section class="bg-black aligncenter">
           <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
-          <span class="background dark" style="background-image:url('static/images/random-img.png')"></span>
+          <span class="background" style="background-image:url('static/images/shape01.png')"></span>
           <div class="wrap">
-            <h1 class="text-landing text-shadow">Random</h1>
+            <h1 class="text-landing text-shadow">Shapes</h1>
             <p></p>
             <p>
-              <a target="_blank" class="button ghost" href="../notebooks/03.html#random" >
+              <a target="_blank" class="button ghost" href="../notebooks/01.html#shapes" >
+                <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
+                Go to notebook
+              </a>
+            </p>            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black aligncenter">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background dark" style="background-image:url('static/images/pattern.jpg')"></span>
+          <div class="wrap">
+            <h1 class="text-landing text-shadow">Patterns</h1>
+            <p></p>
+            <p>
+              <a target="_blank" class="button ghost" href="../notebooks/01.html#patterns" >
+                <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
+                Go to notebook
+              </a>
+            </p>            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="fullscreen bg-black aligncenter">
+         <div class="embed dark">
+           <video autoplay loop muted poster="static/images/10print.jpg">
+             <source src="static/vids/c64-10print.mp4" type="video/mp4">
+           </video>
+          </div><!-- .end .embed -->
+          <!-- .wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h1 class="text-landing text-shadow">From pattern to agents</h1>
+            <p></p>
+            <p>
+              <a target="_blank" class="button ghost" href="../notebooks/01.html#from-patterns-to-agents" >
+                <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
+                Go to notebook
+              </a>
+            </p>            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black aligncenter">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background dark" style="background-image:url('static/images/agents.jpg')"></span>
+          <div class="wrap">
+            <h1 class="text-landing text-shadow">Agents</h1>
+            <p></p>
+            <p>
+              <a target="_blank" class="button ghost" href="../notebooks/01.html#agents" >
+                <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
+                Go to notebook
+              </a>
+            </p>            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black aligncenter">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('static/images/colors.jpg')"></span>
+          <div class="wrap">
+            <h1 class="text-landing text-shadow">Colors</h1>
+            <p></p>
+            <p>
+              <a target="_blank" class="button ghost" href="../notebooks/02.html" >
                 <svg class="fa-book"><use xlink:href="#fa-book"></use></svg> 
                 Go to notebook
               </a>
@@ -150,7 +269,7 @@
 
         <section class="frame bg-black aligncenter">
           <div class="wrap">
-            <h2 class="text-landing">Progress</h2>
+            <h2 class="text-landing">What's next?</h2>
           </div>
           <!-- .end .wrap -->
         </section>
