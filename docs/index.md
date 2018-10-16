@@ -58,7 +58,7 @@ Evaluation criteria are:
 
 There will be small exercises throughout the weeks and one main final project.
 
- [refSlides00]: slides/00.html
+ [refSlides00]: slides/week00.html
  [refSlides01]: slides/week01.html
  [refSlides02]: slides/week02.html
  [refSlides03]: slides/week03.html
