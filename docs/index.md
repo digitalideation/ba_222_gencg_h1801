@@ -50,7 +50,7 @@ During the second week ot the workshop we will adapt what we've learned so far a
 The last week of the workshop is dedicated to the "open assignment". You will have to pick one of the themes we will discuss back in week 01 (cadaver / logo / sound sculpture ) and create your own implementation of it. Feel free to work in group or on your own for this assignment.
 
 
-## Notes
+## Evaluation
 
 Evaluation criteria are:
 - Quality of the result
@@ -59,11 +59,11 @@ Evaluation criteria are:
 There will be small exercises throughout the weeks and one main final project.
 
  [refSlides00]: slides/00.html
- [refSlides01]: slides/01.html
- [refSlides02]: slides/02.html
- [refSlides03]: slides/03.html
- [refNotes01]: notebooks/01.html
- [refNotes02]: notebooks/02.html
- [refNotes03]: notebooks/03.html
+ [refSlides01]: slides/week01.html
+ [refSlides02]: slides/week02.html
+ [refSlides03]: slides/week03.html
+ [refNotes01]: notebooks/week01.html
+ [refNotes02]: notebooks/week02.html
+ [refNotes03]: notebooks/week03.html
  [refNotes04]: notebooks/04.html
  [refNotes05]: notebooks/05.html
