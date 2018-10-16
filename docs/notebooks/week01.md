@@ -119,7 +119,7 @@ Try to recreate some of the effects below. Add some interactivity (mouse, keyboa
 <img src="../assets/images/maxbill_15variations.jpg" style="width:100%;height:auto;">
 
 > You will find code examples in the main github-repo in the folder `examples/01-...` `examples/02-...` <br>
-> [Generative Gestaltung (P_2_0)](http://www.generative-gestaltung.de/code) <br>
+> [Generative Gestaltung (P_2_0)](http://www.generative-gestaltung.de/2) <br>
 
 # Patterns
 
@@ -143,7 +143,7 @@ Try to recreate some of the patterns below, add interactivity. **Start simple th
 ___
 
 > You will find code examples in the main github-repo in the folder `examples/03-...` <br>
-> [Generative Gestaltung (P_2_1)](http://www.generative-gestaltung.de/code) <br>
+> [Generative Gestaltung (P_2_1)](http://www.generative-gestaltung.de/2) <br>
 > 🌟 [Pinterest pattern board](https://www.pinterest.ch/9uill0m/generative-class/patterns/) <br> *(temp pinterest account: tmp.pin@gmail.com / TT4[bosses )* <br>
 > [Escher tesselations](https://duckduckgo.com/?q=escher+tessellations&t=ffab&iar=images&iax=images&ia=images)
 
@@ -202,7 +202,7 @@ ADD DEFINITION + EXAMPLES HERE
 ___
 
 > You will find code examples in the main github-repo in the folder `examples/04-...` <br>
-> [Generative Gestaltung (P_2_2)](http://www.generative-gestaltung.de/code) <br>
+> [Generative Gestaltung (P_2_2)](http://www.generative-gestaltung.de/2) <br>
 > 🌟 [Pinterest agents board](https://www.pinterest.ch/9uill0m/generative-class/agents/) <br> *(temp pinterest account: tmp.pin@gmail.com / TT4[bosses )* <br>
 > [Jared Tarbell repo](https://github.com/jaredtarbell?tab=repositories) <br>
 > [Inconvergent posts](http://inconvergent.net/generative/) <br>

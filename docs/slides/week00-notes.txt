@@ -1,0 +1,68 @@
+INTRO
+------
+
+Geometry, abstraction, and chance are important themes not just for generative art, but for all art of 20th Century. As an art historian and an amateur generative artist, I see a clear line of influence on generative art starting from Cézanne and shooting straight through to the:
+
+Fracturing of geometry in Analytical Cubism
+
+Emphasis on technology, machine aesthetic, and mechanized production from Futurism, Constructivism, and the Bauhaus
+
+Introduction of autonomy and chance in Dada, Surrealism, Abstract Expressionism
+
+Anti-figurative aesthetic, bold geometry, and intense color of Neoplasticism, Suprematism, Hard-edged Abstraction, and OpArt
+
+Use of algorithms by Sol Lewitt and others
+
+
+Myth
+-------
+One overly simple but useful definition is that generative art is art programmed using a computer that intentionally introduces randomness as part of its creation process. This often brings up two common but misguided viewpoints that hold people back from appreciating the beauty and nuance of generative art.
+
+Controlled randomness may sound contradictory, but if you are an artist or an art historian, you know that artists have always sought ways to introduce randomness into their work to stimulate their creativity. Thinking about the process of coding generative art as being similar to painting or sketching is actually spot on. In fact, we will see that the tool favored by most generative artists refers to the individual artworks produced as "sketches.”
+
+
+Early examples
+-------
+Imagine for a second that you drew the image above yourself using a pen and a piece of paper and it took you one hour to produce. It would then take you ten hours if you wanted to add ten times the number of squares, right? A very cool and important characteristic of generative art is that Georg Nees could have added thousands more boxes, and it would only require a few small changes to the code.
+
+Unlike analog art, where complexity and scale require exponentially more effort and time, computers excel at repeating processes near endlessly without exhaustion. As we will see, the ease with which computers can generate complex images contributes greatly to the aesthetic of generative art.
+
+As with many innovations, there were several pioneers exploring the potential for generative art in its first few years. Frieder Nake and Michael Noll, along with Georg Nees, were all exploring the use of computers to generate art. Back then, computers typically had no monitors, and the work was shared by printing the art on plotters, large printers designed for vector graphics. 
+
+
+Pioneering Women of Generative Art
+-------
+It was hard for anyone to be a generative artist in the ‘60s and ‘70s. Computers were primitive, filled entire rooms, and access to them was extremely limited. Today most people grew up with computers in their homes and now carry them in their pockets. The majority of people in those early decades of computing had little to no contact with computers or frame of reference outside of science fiction. Against this backdrop and in a time where women faced tremendous sexism in the workplace, a large number of female generative artists emerged, making key contributions to the craft and the community.
+
+
+Lillian Schwartz
+-------
+Generative artist and art researcher Lillian Schwartz worked as artist-in-residence at Bell Labs starting in 1968 for over 34 years. Her credentials are impressive. She was the first to have generative art acquired by the MoMA and is often credited, along with her collaborator Ken Knowlton, with being the first to exhibit animated digital work as fine art. In a 1982 interview in the Los Angeles Times, Lillian described the cool reception she received from her art world peers when she introduced the computer into her art making practice:
+
+Other key female generative artists from the early days of generative art who made enormous contributions in popularizing the genre include Sonia Landy Sheridan, who founded the first generative systems department at the Art Institute of Chicago in 1970, and Grace Hertlein, who helped to popularize the first annual generative art competition when she became arts editor for Computers and Automation Magazine in 1974.
+
+
+Muriel Cooper
+-------
+Though not known to be a programmer, Muriel Cooper had as much influence as anyone in establishing the aesthetics of the computing revolution. Cooper was trained in the design principles of the Bauhaus and influenced by her friend, master designer Paul Rand. Cooper imbued these principles at MIT, where she served as a long-time director of the MIT Press. She then founded MIT's Visual Language Workshop (VLW) in 1975, which moved to the MIT Media Lab in 1985 as "one of its founding sources." As we will see, the Media Lab went on to be more important to the evolution of generative art than any other singular institution. 
+
+
+John Maeda and the MIT Media Lab
+-------
+Many people may know John Maeda as the former president of the Rhode Island School of Design (RISD) or as the author of the book The Laws of Simplicity. They may not know that Maeda started as an engineering student at MIT where he was fascinated by the work of Murial Cooper and the VLW. After completing both his bachelor’s and master’s degrees in engineering at MIT, Maeda earned a Ph.D. in design at Tsukuba University's School of Art and Design in Japan.
+
+Maeda returned to MIT and created the Aesthetics and Computation Group (ACG) within the Media Lab. As a group, ACG were heavily influenced by the prior work done by Murial Cooper's VLW group. Though Maeda is an accomplished generative artist with works in major museums, his greatest contribution to generative art was his invention of a platform for artists and designers to explore programing called "Design By Numbers."
+
+In the late '90s Maeda recruited several brilliant and like-minded artists/technologists into the Media Lab to help work on “Design by Numbers,” including Ben Fry and Casey Reas. Fry and Reas took Maeda's “Design by Numbers” into classrooms around the world and eventually built their own free platform that could be shared outside of universities and used by anyone with an interest learning to sketch with code. They called this platform “Processing.”
+
+
+Processing
+--------
+Processing made generative art accessible to anyone in the world with a computer. You no longer needed expensive hardware, and more importantly, you did not need to be a computer scientist to program sketches and create art. The language, the environment, and the community were all carefully crafted from the beginning make Processing accessible to as broad an audience as possible.
+
+Processing is the key turning point in the production and proliferation of generative art. The massive growth is clear in the graph below.
+ Number of times the Processing software is opened on unique computers each month from 2005 to early 2018. This graph was originally published in Fry and Reas' excellent article on the history of Processing, " A Modern Prometheus ." The peaks and valleys are correlated with the academic year with the highest points in the fall and the lowest during the summer. This data doesn’t account for shared computer use or when people turn this reporting off in the software preferences. 
+Number of times the Processing software is opened on unique computers each month from 2005 to early 2018. This graph was originally published in Fry and Reas' excellent article on the history of Processing, "A Modern Prometheus." The peaks and valleys are correlated with the academic year with the highest points in the fall and the lowest during the summer. This data doesn’t account for shared computer use or when people turn this reporting off in the software preferences.
+
+Fry and Reas have worked on Processing over the last 17 years, and and it has long been the preferred platform for the best known generative artists. In 2012 they created the Processing Foundation to “expand our reach and to support the software development,” and have added Daniel Shiffman and Lauren McCarthy as members of the foundation board. They have written an excellent post that details the evolution of the history of Processing that I highly recommend you read. Processing’s impact on an entire generation of artists and programers is nearly impossible to overstate - revolutionizing data visualization, pop culture, and fine generative art.
+

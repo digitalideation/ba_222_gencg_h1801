@@ -14,8 +14,8 @@ Welcome to the classes generative design @ HSLU / Digital Ideation. This is the 
     - TBC
 
 [refMainRepo]:https://github.com/digitalideation/BA_222_GENCG_H1801
-[refClassRepo]:http://...
-[refClassPortfolio]:http://...
+[refClassRepo]:http://github.com/digitalideation/BA_222_GENCG_H1801_students
+[refClassPortfolio]:#
 
 ## Students
 
@@ -41,13 +41,13 @@ For this first week we will focus on the basis. We will be looking at the core f
 
 ## WEEK 02
 
-During the second week ot the workshop we will adapt what we've learned so far and play with new concepts. We will first learn how to use noise and random values, we will continue developing our agents and adapt them to create generative typography. We will also start experimenting with live server interaction and websockets.
+During the second week ot the workshop we will adapt what we've learned so far and play with new concepts. We will first learn how to use noise and random values, we will continue developing our agents and adapt them to create generative typography.
 - [Slides][refSlides02]
 - [Notes part 03: ][refNotes03]
 
 ## WEEK 03
 
-The last week of the workshop is dedicated to the "open assignment". You will have to pick one of the themes we will discuss back in week 01 (cadaver / logo / sound sculpture ) and create your own implementation of it. Feel free to work in group or on your own for this assignment.
+The last week of the workshop is dedicated to the "open assignment". You will have to pick one of the themes we discussed back in week 01 and create your own implementation of it. Feel free to work in group or on your own for this assignment.
 
 
 ## Evaluation
