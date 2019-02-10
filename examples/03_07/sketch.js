@@ -31,7 +31,7 @@ function draw() {
 
   noiseDetail(options.octaves,options.falloff);
 
-  let t = millis()/10000;
+  // let t = millis()/10000;
   // to make it constant
   // let t = 1;
 

@@ -28,7 +28,7 @@ function draw() {
 
   background(0, options.bgAlpha);
 
-  count = mouseX / 50 + 10;
+  count = mouseX / 100 + 10;
   let para = mouseY / height;
 
   for (let gridY = 0; gridY <= options.tileCountY; gridY++) {

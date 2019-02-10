@@ -212,4 +212,4 @@ ___
 
 [^note-id1]: [processing tutorial on vector](https://processing.org/tutorials/pvector/)
 [^note-id2]: ["Concrete art"](http://moca.org/pc/viewArtTerm.php?id=12). MOCA/Museum of Contemporary Art, Los Angeles 
-[^note-id3]: ["What is Generative Design?"](http://www.reneepuusepp.com/what-is-generative-design/)
+[^note-id3]: ["What is Generative Design?"](https://prezi.com/jgqqkltjp1yx/what-is-generative-design/)

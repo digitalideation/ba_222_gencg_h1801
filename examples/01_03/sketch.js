@@ -14,7 +14,7 @@ function setup() {
   // Colors and drawing modes
   smooth();
   // Init Var
-  tileCount = 20;
+  tileCount = 50;
   actRandomSeed = 0;
   actStrokeCap = ROUND; 
 }

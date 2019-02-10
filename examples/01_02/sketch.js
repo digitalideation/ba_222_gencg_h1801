@@ -35,7 +35,7 @@ function draw() {
     var angle = TWO_PI / circleResolution;
 
     strokeWeight(2);
-    stroke(strokeColor);
+    fill(strokeColor);
 
     beginShape();
     for (i = 0; i <= circleResolution; i++) {

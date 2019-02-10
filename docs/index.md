@@ -19,17 +19,25 @@ Welcome to the classes generative design @ HSLU / Digital Ideation. This is the 
 
 ## Students
 
-1. [][refStud01]
-2. [][refStud02]
-3. [][refStud03]
-4. [][refStud04]
-5. [][refStud05]
+1. [Aytac][refStud01] - [Results][refRes01]
+2. [Orell][refStud02] - [Results][refRes02]
+3. [Yannick][refStud03] - [Results][refRes03]
+4. [Marlon][refStud04] - [Results][refRes04]
+5. [Patrick][refStud05] - [Results][refRes05]
+6. [Florian][refStud06] - [Results][refRes06]
 
-[refStud01]:https://github.com/
-[refStud02]:https://github.com/
-[refStud03]:https://github.com/
-[refStud04]:https://github.com/
-[refStud05]:https://github.com/
+[refStud01]:https://github.com/MrTouch
+[refStud02]:https://github.com/Taereth
+[refStud03]:https://github.com/yannickbaettig
+[refStud04]:https://github.com/voidCAPITALism
+[refStud05]:https://github.com/arcs-
+[refStud06]:https://github.com/Fl0ps
+[refRes01]:https://digitalideation.github.io/gencg-18-MrTouch/ 
+[refRes02]:https://digitalideation.github.io/gencg-18-Taereth/ 
+[refRes03]:https://digitalideation.github.io/gencg-18-yannickbaettig
+[refRes04]:https://digitalideation.github.io/gencg-18-voidCAPITALism/ 
+[refRes05]:https://digitalideation.github.io/gencg-18-arcs-/
+[refRes06]:https://digitalideation.github.io/gencg-18-Fl0ps/ 
 
 ## WEEK 01
 

@@ -1,0 +1,42 @@
+<!-- temporaty page for testing purpose only -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>test page</title>
+  <!-- 
+    Add your scripts in "/_includes/scripts/" 
+    store them all in the "/js/" folder 
+  -->
+  <script src="../js/p5.min.js"></script>
+  <script src="../js/p5.dom.js"></script>
+  <script src="../js/p5.sound.js"></script>
+  <script src="../js/dat.gui.min.js"></script>
+  <!-- Sketches -->
+  <script src="gui.js"></script>
+  <script src="sketch.js"></script>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  canvas {
+    margin: auto;
+  }
+  /* Quick and dirty way to change DAT GUI position if needed */
+  .dg.a {
+    /*margin-top: 45px !important;*/
+  }
+  </style>
+</head>
+
+<body>
+  <div id="p5Container" class="canvas-container"></div>
+</body>
+
+</html>

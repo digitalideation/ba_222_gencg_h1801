@@ -9,7 +9,7 @@ class Agent {
     let _isOutside = false;
     let _p = createVector(random(width), random(height));
     let _pOld = createVector(_p.x, _p.y);
-    let _stepSize = random(1, 5);
+    let _stepSize = random(1, 2);
 
     this.draw = function(noiseScale, noiseStrength, strokeWidth, drawMode){
 

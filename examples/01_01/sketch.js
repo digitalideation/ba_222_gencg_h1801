@@ -23,9 +23,9 @@ function draw() {
 
   if (p) {
     b = random(255);
-    push();
+    // push();
 
-    translate(width / 2, height / 2);
+    translate(2, 2);
 
     var circleResolution = toInt(map(mouseY + 100, 0, height, 2, 10));
     var radius = mouseX - width / 2 + 0.5;
@@ -42,7 +42,7 @@ function draw() {
     }
     endShape();
 
-    pop();
+    // pop();
   }
 }
 

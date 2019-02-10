@@ -21,8 +21,8 @@ function draw() {
 
   translate(width/tileCount/2, height/tileCount/2);
 
-  background(25);
-  // background(25, 5);   // try to modify the alpha
+  // background(25);
+  background(25, 50);   // try to modify the alpha
   smooth();
   noFill();
   
@@ -41,7 +41,7 @@ function draw() {
       shiftX = random(-mouseX, mouseX)/20;
       shiftY = random(-mouseX, mouseX)/20;
 
-      ellipse(posX+shiftX, posY+shiftY, mouseY/15, mouseY/15);
+      rect(posX+shiftX, posY+shiftY, mouseY/15, mouseY/15);
     }
   }
 }
